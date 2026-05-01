@@ -13,7 +13,7 @@ export default defineConfig(({ mode }) => ({
     },
   },
   plugins: [react(), mode === "development" && componentTagger()].filter(Boolean),
-  base: '/clarix.github.io/',
+  base: '/testrepo/',
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
